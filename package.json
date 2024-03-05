@@ -1,0 +1,12 @@
+{
+  "name": "playwright-node",
+  "version": "1.0.0",
+  "main": "main.mjs",
+  "scripts": {
+    "start": "node main.mjs"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "playwright": "^1.42.1"
+  }
+}
