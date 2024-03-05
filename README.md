@@ -1,6 +1,6 @@
 # This example is to be used with the [Browserless template](https://railway.app/template/browserless)
 
-Create a referance variable on your service
+Create a reference variable on your service
 
 ```shell
 WS_ENDPOINT_PLAYWRIGHT=${{Browserless.WS_ENDPOINT_PLAYWRIGHT}}
