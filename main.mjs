@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000;
 
 app.listen(port, () => console.log(`Server listening on port: ${port}`));
 
-const browser = await playwright.chromium.connect(process.env.WS_ENDPOINT_PLAYWRIGHT);
+const browser = await playwright.chromium.connect(process.env.BROWSER_PLAYWRIGHT_ENDPOINT);
 const context = await browser.newContext();
 const page = await context.newPage();
 
